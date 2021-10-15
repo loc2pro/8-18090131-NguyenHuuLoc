@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity  implements OnClickListener{
 
     @Override
     public void clickItem(Song song) {
-        Intent intent = new Intent(MainActivity.this,PlaySong.class)
+        Intent intent = new Intent(MainActivity.this,PlaySong.class);
         intent.putExtra("song",song);
         intent.putExtra("listMusic", (Serializable) mSongs);
         intent.putExtra("index",mSongs.indexOf(song));

@@ -16,14 +16,69 @@
 
     <ConstraintSet android:id="@+id/end">
         <Constraint
-            android:layout_height="60dp"
+            android:layout_height="44dp"
             motion:layout_constraintTop_toTopOf="@+id/imgPlay"
             motion:layout_constraintBottom_toBottomOf="@+id/imgPlay"
-            android:layout_width="52dp"
+            android:layout_width="43dp"
             motion:layout_constraintVertical_bias="0.0"
             motion:layout_constraintStart_toEndOf="@+id/imgPlay"
-            android:layout_marginLeft="136dp"
-            android:layout_marginStart="136dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginStart="24dp"
             android:id="@+id/imgTien" />
+        <Constraint
+            android:layout_height="46dp"
+            motion:layout_constraintTop_toTopOf="@+id/imgLui"
+            motion:layout_constraintBottom_toBottomOf="@+id/imgLui"
+            android:layout_width="43dp"
+            motion:layout_constraintVertical_bias="0.0"
+            motion:layout_constraintStart_toEndOf="@+id/imgLui"
+            android:layout_marginLeft="24dp"
+            android:layout_marginStart="24dp"
+            android:id="@+id/imgPlay" />
+        <Constraint
+            android:layout_height="44dp"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            android:layout_width="48dp"
+            motion:layout_constraintTop_toBottomOf="@+id/seekBar"
+            motion:layout_constraintVertical_bias="0.906"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="120dp"
+            android:layout_marginStart="120dp"
+            android:id="@+id/imgLui" />
+        <Constraint
+            android:layout_height="19dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="652dp"
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="333dp"
+            android:id="@+id/seekBar" />
+        <Constraint
+            android:layout_height="164dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="564dp"
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_constraintHorizontal_bias="0.0"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="418dp"
+            android:id="@+id/imageView" />
+        <Constraint
+            android:layout_height="35dp"
+            motion:layout_constraintHorizontal_bias="0.51"
+            motion:layout_constraintEnd_toEndOf="@+id/imageView"
+            android:layout_width="114dp"
+            motion:layout_constraintStart_toStartOf="@+id/imageView"
+            android:id="@+id/txtNameSong"
+            motion:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="80dp" />
+        <Constraint
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/txtSinger"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="148dp"
+            motion:layout_constraintHorizontal_bias="0.498" />
     </ConstraintSet>
 </MotionScene>

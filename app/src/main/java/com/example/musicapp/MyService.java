@@ -1,6 +1,6 @@
 package com.example.musicapp;
 
-import static com.example.myapp.MyAplication.CHANEL_ID;
+import static com.example.musicapp.MyAplication.CHANEL_ID;
 
 import android.app.Notification;
 import android.app.PendingIntent;
